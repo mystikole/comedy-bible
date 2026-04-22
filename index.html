@@ -36,9 +36,8 @@
     <div class="kole-boot">Loading your material…</div>
   </div>
 
-  <!-- Babel compiles the JSX in-browser; data-type="module" preserves ES module behavior -->
-  <script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js"></script>
-  <script type="text/babel" data-type="module" data-presets="react" src="./app.js"></script>
+  <!-- app.js is pre-compiled (no JSX, no Babel needed). Loads as a native ES module. -->
+  <script type="module" src="./app.js"></script>
 
   <script>
     if ("serviceWorker" in navigator) {
