@@ -1,7 +1,6 @@
 import React from "react";
 // ===== Comedy Bible Homework — hosted build =====
-// This file is compiled by Babel-standalone in the browser.
-// The original JSX source lives in app.js and is loaded via <script type="text/babel">.
+// Pre-compiled from JSX. Loads as a native ES module. No build step needed.
 // localStorage shim for the window.storage API used throughout the app.
 // Data persists in the browser, per-device, unless Drive sync is connected.
 if (!window.storage) {
